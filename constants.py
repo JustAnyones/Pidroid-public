@@ -21,10 +21,10 @@ CHEESE_EATERS = [
 
 THEOTOWN_GUILD = 365478391719264276
 
-# Theocraft minecraft server
-MINECRAFT_LISTENER_GUILD = 623839265238810624
-MINECRAFT_LISTENER_CHANNEL = 767930263052746822
-MINECRAFT_LISTENER_USER = 720001048210571275
+# Lobster's Kitchen Minecraft server
+MINECRAFT_LISTENER_GUILD = 822246810961182742
+MINECRAFT_LISTENER_CHANNEL = 823215670534733824
+MINECRAFT_LISTENER_USER = 823210405295292416
 
 # Pidroid file structure
 DATA_FILE_PATH = './data/'
@@ -41,7 +41,7 @@ FACTS = [
     'I\'ve heard a user by the name of The26 likes ducks. I suggest you send them a duck picture.',
     'Yo, Q||_REMOVED_||02, do you know where I can get some of them wide monitors you have?',
     'KolaKattz? Nope, never heard of him. Have you?',
-    'I have multiple brothers, one of them is named Pidroid Canary. Perhaps you\'ve met him already?',
+    'I have multiple brothers, one of them is named Pidroid Beta. Perhaps you\'ve met him already?',
     'This bot is built using discord.py wrapper made by an awesome guy called Rapptz.',
     'Man, the other day I was searching for some medic bags and I couldn\'t find any. They are all gone!',
     'Yes, *kentucky* fried chicken is indeed my good friend',
@@ -88,7 +88,7 @@ BEG_FAILURE_RESPONSES = [
 ]
 
 def setup(client):
-  print('Constants loaded')
+    print('Constants loaded')
 
 def teardown(client):
-  print('Constants unloaded')
+    print('Constants unloaded')
